@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!--As tags de metadados são tags que fornecem informações para a página, no caso do charset, está relacionado com o padrão de codificação dos caracteres. No VSCode esta o UTF-8 -->
+        <meta charset="UTF-8">
+
+        <!-- Fornece informações da página sobre tamanho e escala para ela ser responsiva -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Adiciona o título na aba do projeto -->
+        <title>Gabriel Scarpelin Diniz</title>
+        
+        <!-- Importa o arquivo "phaser.js" na raíz das nossas pastas para cá -->
+        <script src="phaser.js"></script>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <!-- Importa o arquivo "peixe.js" na raíz do projeto para cá -->
+        <script src="peixe.js"></script>
+
+        <!-- Scripts javascripts da página-->
+        <script>
+            const resposta = "Sim, já programei bastante, principalmente com JavaScript. Nele eu construi a maior parte dos meus projetos. Comecei a 'codar' com 15 anos, quando iniciei um curso técnico. Desde então, tenho aprendido e estudado cada vez mais. Inclusive, caso o senhor queira ver meu GitHub pessoal, ele estará em outra variável"
+            const github = "https://github.com/GabrielScarpelin"
+
+            console.log(`${resposta}\nLink do meu Github pessoal: ${github}`)
+        </script>
+    </body>
+
+</html>
